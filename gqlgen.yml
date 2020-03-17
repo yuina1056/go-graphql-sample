@@ -1,0 +1,9 @@
+schema:
+- schema.graphql
+exec:
+  filename: ./infrastructure/graphql/exec.go
+model:
+  filename: ./domain/models/graphql/model_gen.go
+resolver:
+  filename: ./interfaces/resolvers/root_resolver.go
+  type: Resolver
